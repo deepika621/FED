@@ -7,7 +7,7 @@ for(let i=-n;i<=n;i++){
     }else{
         l=i;
     }
-    for(j=0;j<n-l;j++){
+    for(let j=0;j<n-l;j++){
         string+=" ";
     }
     for(let k=1;k<l+1;k++){
