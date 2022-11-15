@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="signUp.css">
+    </head>
+    <body>
+        <div class="container"></div>
+        <h2 id="signUpHeader" style="color:red">Create a new account</h2>
+        <h4>Its Quick and Easy.</h4>
+        <form>
+            <label for="fname">Enter First Name</label>
+            <input type="text" name="fname" placeholder="First name"/>
+            <label for="lname">Enter Last Name</label>
+            <input type="text" name="lname" placeholder="Last name"/>
+            <label for="email">Enter Email id</label>
+            <input type="email" name="email" placeholder="Email Id"/>
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" placeholder="Password"/>
+            
+            <label for="dob">Enter Date Of Birth</label>
+            
+            <input type="date" name="dob"/>
+            
+            <label for="phone">Enter Phone Number</label>
+           
+            <input type="text"><input type="number" name="phone"/>
+            
+            <label for="gender">Please Select your Gender</label>
+            
+            <input class="input-radio"type="radio"name="gender"/>
+            <label class="label-radio"for="">Male</label>
+            <input class="input-radio"type="radio"name="gender"/>
+            <label class="label-radio"for="">Female</label>
+            <input class="input-radio"type="radio"name="gender"/>
+            <label class="label-radio"for="">Other</label>
+            
+            <label for="address">Enter Your Address</label>
+            
+            <textarea name="address" cols="30" placeholder="Your Address" rows="4"></textarea>
+            
+            <label for="city">Select Your City</label>
+            
+            <select name="city">
+                <option value="-1">select city</option>
+                <option value="0">Ahmedabad</option>
+                <option value="1">Banglore</option>
+                 <option value="2">Delhi</option>
+                <option value="3">Hyderabad</option>
+                <option value="4">Mumbai</option>
+                <option value="5">Pune</option>
+            </select>
+           
+            <label for="pincode">Enter Your Pincode</label>
+            
+            <input type="text" name="pincode"/>
+           
+            <input class="input-check" type="checkbox" name="tc">
+            <label class="label-check" for="tc">Terms & Conditions</label> 
+            <button type="reset">Clear</button>
+            <input class="bg-blue" type="submit" value="Sign Up"> 
+        </form>
+    </div>
+    </body>
+</html>
