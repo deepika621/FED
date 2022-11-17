@@ -9,9 +9,11 @@ label{
     margin: 6px;
     font-size: large;
 }
+
 .container{
-    margin: 4px;
+    margin: 36px;
     display: flex;
+
 }
 input{
     display: block;
@@ -63,4 +65,29 @@ select{
     display: flex;
     width: fit-content;
     background-color: skyblue;
+}
+.left{
+    width: 50%;
+}
+img{
+    width: 75%;
+}
+.right{
+    width: 50%;
+}
+@media only screen and (max-width:500px){
+    .container{
+        display: block;
+    }
+    .left{
+        width: fit-content;
+        height: 160px;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+    }
+    img{
+        width: 40%;
+    }
 }
