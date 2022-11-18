@@ -1,0 +1,89 @@
+.top_header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+.icon_cover{
+    margin-top:-10px
+}
+
+.icon{
+    color: white;
+}
+
+.companyName{
+    margin-left: 10px;
+    color: white;
+    font-size: small;
+}
+
+.tag{
+    font-size: smaller;
+    color: lightgray;
+}
+.header_Left{
+    align-items: center;
+    padding-left: 10px;
+    width: 40%;
+    display: flex;
+}
+.header_Right{
+    padding: 8px;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+.btn-editor{
+    margin-right: 6px;
+    height: 34px;
+    padding: 8px;
+    background-color: grey;
+    border: 1px groove grey;
+    font-size: small;
+    color: white;
+    border-radius: 2px;
+}
+.cover{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+    color: white;
+    flex-direction: column;
+}
+.cover_text{
+    font-size: x-large;
+}
+
+.cover_tag{
+    font-size: smaller;
+    color: gray;
+}
+.card-body{
+    text-align: center;
+}
+
+.btn-cart{
+    background-color: white;
+    color: gray;
+    border: 1px solid lightgray;
+}
+
+.star{
+    color: gold;
+}
+.footer{
+    height: 30px;
+    background-color: #28282B;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    color: lightgray;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+}
