@@ -1,0 +1,13 @@
+.top_header{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.sony_logo{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0, 8px;
+}
