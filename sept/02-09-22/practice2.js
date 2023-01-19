@@ -18,3 +18,4 @@ function foo(n,m){
 //T(n,m)=O(n+m)=O(n)+O(m)
 foo(4,5);
 foo(10,20);
+foo(2,3);
