@@ -9,7 +9,7 @@ function findSorted(array,i) {
         return false;
     }
     //how to reach towards base condition
-    return findSorted(array,i+1);
+    return findSorted(array,i+1); //++i also works
 }
 //const array=[5,6,4,3,9]; //false
 const array= [3,5,7,8,9]; //true
