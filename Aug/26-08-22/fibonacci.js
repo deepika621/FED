@@ -7,3 +7,4 @@ function findFibonacci(n){
     return findFibonacci(n-1)+findFibonacci(n-2)
 }
 console.log(findFibonacci(7))
+console.log(findFibonacci(5))
